@@ -45,6 +45,9 @@ def main():
 
     args = parser.parse_args()
 
+    if not os.path.exists(args.data):
+        os.makedirs(args.data)
+
     # supervised dataset will be 1/2
     supervised_ratio = 0.5
     ratio = 0.25 * (1 + args.type)
