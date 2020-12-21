@@ -12,4 +12,4 @@ In checkpoint directory, each pth file is the best performed model for each type
   > $ python3 main.py --mode train --type 2 --saved_model your_pretrained_model.pth
  
 - evaluate saved model
-  > $ python3 main.py --mode eval --saved model model_name.pth
+  > $ python3 main.py --mode eval --saved_model model_name.pth
